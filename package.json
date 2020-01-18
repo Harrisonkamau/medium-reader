@@ -1,0 +1,15 @@
+{
+  "name": "Medium-Reader",
+  "version": "1.0.0",
+  "description": "A node API to retrieve posts from Medium",
+  "main": "index.js",
+  "author": "Harrisonkamau <kamauharrison87@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
