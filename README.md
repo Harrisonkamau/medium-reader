@@ -76,6 +76,7 @@ Check your terminal to see if there any logs from Medium. Happy coding!
 
 ## References
 - [Medium Developers Page](https://github.com/Medium/medium-api-docs)
+- [Node config](https://github.com/lorenwest/node-config)
 
 ## Contacts
 - If you after following this documentation you still have trouble setting this project up, then feel free to ping me via [email](kamauharrison87@gmail.com) or reach me on [twitter](https://twitter.com/ChegeHarrison).
