@@ -74,6 +74,10 @@ After the Node server starts up successfully above, a new terminal window or tab
 
 Check your terminal to see if there any logs from Medium. Happy coding!
 
+**NOTE**
+
+To see the `async/await` version of this API, switch to [develop](https://github.com/Harrisonkamau/medium-reader/tree/develop) branch.
+
 ## References
 - [Medium Developers Page](https://github.com/Medium/medium-api-docs)
 - [Node config](https://github.com/lorenwest/node-config)
