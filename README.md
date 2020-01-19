@@ -44,7 +44,7 @@ Ensure you have an account on [Medium](https://medium.com/) before starting up. 
 ## Installation
 After setting all the above tools locally, then follow these instructions carefully to get the application running on your PC.
 
-1. Clone the repo
+1. ***Clone the repo***
 ```sh
 # via ssh
 git clone git@github.com:Harrisonkamau/medium-reader.git
@@ -52,12 +52,13 @@ git clone git@github.com:Harrisonkamau/medium-reader.git
 # or via https
 git clone https://github.com/Harrisonkamau/medium-reader.git
 ```
-2. Install application dependencies
+2. ***Install application dependencies***
 ```sh
 yarn install
 ```
 
-3. Run Dev server
+3. **Run Dev server**
+
 Ensure you have `.env` file with the following ENV vars
 ```sh
 # sample .env
@@ -68,7 +69,7 @@ MEDIUM_ACCESS_TOKEN="YOUR_CLIENT_SECRET_FROM_MEDIUM"
 
 Start the server with: `yarn dev` and leave it running.
 
-3. Run Ngrok
+4. **Run Ngrok**
 
 After the Node server starts up successfully above, a new terminal window or tab and run `ngrok http 4000`. This will generate a list of urls. Grab the one with a `https` and go back to [Medium Applications page](https://medium.com/me/applications) to update the application's Callback URL.
 
