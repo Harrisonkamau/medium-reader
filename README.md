@@ -15,7 +15,8 @@ Before running this app on your local machine, ensure you have the following set
 2. Yarn - Install it with NPM if you're already have it: `sudo npm -g install yarn`
 3. Setup Medium API. See below for more info
 4. [NVM](https://gist.github.com/d2s/372b5943bce17b964a79)
-5. [Ngrok](https://ngrok.com/) - create an account first, then download the CLI [here](https://ngrok.com/download).
+5. [Heroku CLi](https://devcenter.heroku.com/articles/heroku-cli).
+
 
 **Using the correct version of Node for this project**
 
@@ -67,7 +68,7 @@ MEDIUM_CLIENT_SECRET="YOUR_CLIENT_SECRET_FROM_MEDIUM"
 MEDIUM_ACCESS_TOKEN="YOUR_CLIENT_SECRET_FROM_MEDIUM"
 ```
 
-Start the server with: `yarn dev` and leave it running.
+Start the server with: `heroku local -f Procfile.local` and leave it running.
 
 4. **Run Ngrok**
 
