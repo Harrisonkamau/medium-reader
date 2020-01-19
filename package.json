@@ -6,6 +6,10 @@
   "author": "Harrisonkamau <kamauharrison87@gmail.com>",
   "license": "MIT",
   "private": false,
+  "engines": {
+    "node": ">= 10.16.0",
+    "yarn": ">=1.9.4"
+  },
   "scripts": {
     "dev": "nodemon server.js"
   },
