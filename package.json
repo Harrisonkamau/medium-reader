@@ -1,5 +1,5 @@
 {
-  "name": "Medium-Reader",
+  "name": "medium-reader",
   "version": "1.0.0",
   "description": "A node API to retrieve posts from Medium",
   "main": "index.js",
@@ -11,5 +11,10 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "config": "^3.2.5",
+    "dotenv": "^8.2.0",
+    "request": "^2.88.0"
   }
 }
